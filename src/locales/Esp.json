@@ -1,0 +1,11 @@
+{
+    "navigation": {
+        "navItemsDesktop": {
+            "home": "Home",
+            "about-us": "Nosotros",
+            "businesses": "Negocios",
+            "work-with-us": "Trabaja con nosotros",
+            "contact-us": "Contacto"
+        }
+    }
+}
