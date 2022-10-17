@@ -1,0 +1,13 @@
+<template>
+    <svg width="59" height="31" viewBox="0 0 59 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_4_10)">
+        <path d="M57.87 0.570007L29.22 29.22L0.57 0.570007" stroke="#EEEEF0" stroke-width="1.6" stroke-miterlimit="10"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_4_10">
+        <rect width="58.43" height="30.35" fill="white"/>
+        </clipPath>
+        </defs>
+    </svg>
+</template>
+    
