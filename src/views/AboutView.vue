@@ -1,15 +1,17 @@
+<script setup>
+import HeroAbout from '../components/pages/about/HeroAbout.vue';
+import Values from '../components/pages/about/Values.vue';
+import VideoBlock from '../components/pages/about/VideoBlock.vue';
+import OurTeam from '../components/pages/about/OurTeam.vue';
+
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <HeroAbout />
+  <Values />
+  <VideoBlock />
+  <OurTeam />
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
 </style>
