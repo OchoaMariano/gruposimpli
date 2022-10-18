@@ -1,18 +1,14 @@
-<script setup>
-import BusinessesHome from '../components/pages/businesses/BusinessesHome.vue'
-</script>
-
 <template>
-    <div class="bg-white min-h-screen flex items-center justify-center px-16">
+    <div class="bg-gray-50 min-h-screen flex items-center justify-center px-16">
         <div class="relative w-full max-w-lg">
             <div
-                class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob">
+                class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
             </div>
             <div
-                class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000">
+                class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
             </div>
             <div
-                class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000">
+                class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
             </div>
             <div class="m-8 relative space-y-4">
                 <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
@@ -38,19 +34,6 @@ import BusinessesHome from '../components/pages/businesses/BusinessesHome.vue'
                     <div>
                         <div class="w-28 h-6 rounded-lg bg-pink-300"></div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class=" pl-40 relative w-full max-w-lg">
-            <div class="bg-primaryBlue rounded-full overflow-hidden h-80 w-80">
-                <div
-                class="absolute -top-8 left-20 w-60 h-60 bg-[#191943] rounded-full filter blur-3xl opacity-90 animate-blob animation-delay-4000">
-                </div>
-                <div
-                class="absolute -bottom-20 -left-2 w-60 h-60 bg-[#E0BA30] rounded-full filter blur-3xl opacity-90 animate-blob animation-delay-2000">
-                </div>
-                <div
-                class="absolute top-0 -left-20 w-60 h-60 bg-[#19C0FC] rounded-full filter blur-3xl opacity-90 animate-blob">
                 </div>
             </div>
         </div>
