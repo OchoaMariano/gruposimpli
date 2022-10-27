@@ -3,6 +3,13 @@ import HomeView from '../views/HomeView.vue'
 import BusinessesView from '../views/BusinessesView.vue'
 import WorkWithUsView from '../views/WorkWithUsView.vue'
 import ContactUs from '../views/ContactUs.vue'
+import SimplitecView from '../views/SimplitecView.vue'
+import SimplisegView from '../views/SimplisegView.vue'
+import SimplicarView from '../views/SimplicarView.vue'
+import SimpligoView from '../views/SimpligoView.vue'
+import SimplimuvView from '../views/SimplimuvView.vue'
+import SimplidataView from '../views/SimplidataView.vue'
+import SimpliplanView from '../views/SimpliplanView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,6 +31,41 @@ const router = createRouter({
       path: '/businesses',
       name: 'businesses',
       component: BusinessesView
+    },
+    {
+      path: '/simplitec',
+      name: 'simplitec',
+      component: SimplitecView
+    },
+    {
+      path: '/simplimuv',
+      name: 'simplimuv',
+      component: SimplimuvView
+    },
+    {
+      path: '/simpligo',
+      name: 'simpligo',
+      component: SimpligoView
+    },
+    {
+      path: '/simplicar',
+      name: 'simpligo',
+      component: SimplicarView
+    },
+    {
+      path: '/simpliplan',
+      name: 'simpliplan',
+      component: SimpliplanView
+    },
+    {
+      path: '/simpliseg',
+      name: 'simpliseg',
+      component: SimplisegView
+    },
+    {
+      path: '/simplidata',
+      name: 'simplidata',
+      component: SimplidataView
     },
     {
       path: '/work',

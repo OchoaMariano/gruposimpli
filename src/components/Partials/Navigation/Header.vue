@@ -57,7 +57,7 @@
                         >
                         <li
                             :class="[
-                            active ? 'bg-[#DBF6FF] text-gray-90' : 'text-gray-900',
+                            active ? 'bg-[#DBF6FF] text-primaryBlue' : 'text-primaryBlue',
                             'relative cursor-pointer select-none py-2 pl-3 pr-3',
                             ]"
                         >
