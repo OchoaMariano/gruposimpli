@@ -1,4 +1,5 @@
 <script setup>
+import Header from '../components/partials/Navigation/Header.vue'
 import HeroEscene from '../components/pages/home/HeroEscene.vue'
 import AboutUs from '../components/pages/home/AboutUs.vue'
 import Businesses from '../components/pages/home/Businesses.vue'
@@ -8,6 +9,7 @@ import FooterHome from '../components/pages/home/FooterHome.vue';
 
 <template>
   <main>
+    <Header />
     <HeroEscene />
     <AboutUs />
     <Businesses />

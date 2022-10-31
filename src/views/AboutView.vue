@@ -1,4 +1,5 @@
 <script setup>
+import Header from '../components/partials/Navigation/Header.vue'
 import HeroAbout from '../components/pages/about/HeroAbout.vue';
 import Values from '../components/pages/about/Values.vue';
 import VideoBlock from '../components/pages/about/VideoBlock.vue';
@@ -10,6 +11,7 @@ import Footer from '../components/partials/Navigation/Footer.vue';
 </script>
 
 <template>
+  <Header />
   <HeroAbout />
   <Values />
   <VideoBlock />

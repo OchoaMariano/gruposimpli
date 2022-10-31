@@ -14,6 +14,9 @@ import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 import IconArrowLang  from '../../icons/IconArrowLang.vue'
 import IconSelectLang from '../../icons/IconSelectLang.vue'
 
+const props = defineProps({
+  isBlack: Boolean
+})
 
 
 </script>
@@ -25,38 +28,48 @@ import IconSelectLang from '../../icons/IconSelectLang.vue'
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <RouterLink to="/">
-              <img class="block lg:hidden h-5 w-auto"
+              <img v-if="!isBlack" class="block lg:hidden h-5 w-auto"
                 src="../../../assets/images/logo-gsimpli-white.svg" alt="Grupo Simpli" />
-              <img class="hidden lg:block h-7.5 w-auto" src="../../../assets/images/logo-gsimpli-white.svg"
+              <img v-if="!isBlack" class="hidden lg:block h-7.5 w-auto" src="../../../assets/images/logo-gsimpli-white.svg"
+                alt="Grupo Simpli" />
+              <img v-if="isBlack" class="block lg:hidden h-5 w-auto"
+                src="../../../assets/images/logo-grupo-simpli-black.svg" alt="Grupo Simpli" />
+              <img v-if="isBlack" class="hidden lg:block h-7.5 w-auto" src="../../../assets/images/logo-grupo-simpli-black.svg"
                 alt="Grupo Simpli" />
             </RouterLink>
           </div>
         </div>
-        <div class="hidden sm:ml-6 sm:flex sm:items-center">
-          <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+        <div class="hidden md:ml-6 md:flex md:items-center">
+          <div class="hidden md:ml-6 md:flex md:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 
-            <a href="/about"
-              class="border-transparent text-lightWhite hover:text-white inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
+            <RouterLink to="/about"
+              :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+              class="border-transparent inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
               {{ $t('navigation.navItemsDesktop.about-us') }}
-            </a>
-            <a href="/businesses"
-              class="border-transparent text-lightWhite hover:text-white inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
+            </RouterLink>
+            <RouterLink to="/businesses"
+              :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+              class="border-transparent inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
               {{ $t('navigation.navItemsDesktop.businesses') }}
-            </a>
-            <a href="/work"
-              class="border-transparent text-lightWhite hover:text-white inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
+            </RouterLink>
+            <RouterLink to="/work"
+              :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+              class="border-transparent inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
               {{ $t('navigation.navItemsDesktop.work-with-us') }}
-            </a>
-            <a href="/contact"
-              class="border-transparent text-lightWhite hover:text-white inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
+            </RouterLink>
+            <RouterLink to="/contact"
+              :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+              class="border-transparent inline-flex items-center px-1 pt-1 text-sm font-medium uppercase">
               {{ $t('navigation.navItemsDesktop.contact-us') }}
-            </a>
+            </RouterLink>
             <Listbox v-model="$i18n.locale">
               <div class="relative mt-1">
                 <ListboxButton
                   class="relative w-full cursor-pointer rounded-lg bg-transparent pt-1 pr-10 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
-                  <span class="block truncate uppercase text-sm text-white font-bold">{{ $i18n.locale }}</span>
+                  <span 
+                  :class="[isBlack ? 'text-black' : 'text-white']"
+                  class="block truncate uppercase text-sm font-bold">{{ $i18n.locale }}</span>
                   <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4">
                     <IconArrowLang />
                   </span>
@@ -88,12 +101,14 @@ import IconSelectLang from '../../icons/IconSelectLang.vue'
           </div>
 
         </div>
-        <div class="-mr-2 flex items-center sm:hidden">
+        <div class="-mr-2 flex items-center md:hidden">
           <Listbox v-model="$i18n.locale">
             <div class="relative mt-1">
               <ListboxButton
                 class="relative w-full cursor-pointer rounded-lg bg-transparent pt-1 pr-10 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
-                <span class="block truncate uppercase text-sm text-white font-bold">{{ $i18n.locale }}</span>
+                <span 
+                :class="[isBlack ? 'text-black' : 'text-white']"
+                class="block truncate uppercase text-sm font-bold">{{ $i18n.locale }}</span>
                 <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4">
                   <IconArrowLang />
                 </span>
@@ -133,32 +148,37 @@ import IconSelectLang from '../../icons/IconSelectLang.vue'
       </div>
     </div>
 
-    <DisclosurePanel class="sm:hidden backdrop-blur-md pb-10">
+    <DisclosurePanel class="md:hidden backdrop-blur-md pb-10">
       <div class="pt-2 pb-3 space-y-1">
         <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:text-gray-700" -->
 
         <DisclosureButton as="a" href="/"
-          class="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
+          :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+          class="border-transparent hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
           {{ $t('navigation.navItemsDesktop.home') }}
         </DisclosureButton>
 
         <DisclosureButton as="a" href="/about"
-          class="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
+          :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+          class="border-transparent hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
           {{ $t('navigation.navItemsDesktop.about-us') }}
         </DisclosureButton>
 
         <DisclosureButton as="a" href="/businesses"
-          class="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
+          :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+          class="border-transparent hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
           {{ $t('navigation.navItemsDesktop.businesses') }}
         </DisclosureButton>
 
         <DisclosureButton as="a" href="/work"
-          class="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
+          :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+          class="border-transparent hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
           {{ $t('navigation.navItemsDesktop.work-with-us') }}
         </DisclosureButton>
 
         <DisclosureButton as="a" href="/contact"
-          class="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
+          :class="[isBlack ? 'text-black hover:text-gray' : 'text-lightWhite hover:text-white']"
+          class="border-transparent hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium uppercase text-right">
           {{ $t('navigation.navItemsDesktop.contact-us') }}
         </DisclosureButton>
 
