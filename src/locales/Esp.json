@@ -375,7 +375,8 @@
     "simpliMuv": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliMuv es la primera plataforma de digital retailing para el mundo de los vehículos de dos ruedas (motos y bicicletas).",
             "paragraph1": "Con cuatro años de desarrollo, SimpliMuv tiene actualmente un conjunto de soluciones digitales que permiten desde reservar un vehículo hasta obtener un préstamo para el mismo y adquirir accesorios y repuestos de forma online.",
             "paragraph2": "Si bien es difícil que la compra de una moto se realice 100% online, SimpliMuv apunta a brindar una solución omnicanal donde el cliente experimente lo mejor del mundo digital en conjunto con lo mejor de la experiencia en el mundo del retail real.",
@@ -386,7 +387,8 @@
     "simpliCar": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliCar es una empresa que brinda asesoramiento personalizado para particulares y empresas en el proceso de compra y venta de vehículos, ofreciendo servicios de gestoría y financiación a través de canales digitales.",
             "paragraph1": "SimpliCAR tiene como propósito convertirse en una gran concesionaria virtual 2.0 en donde las personas que desean comprar un vehículo tengan una experiencia tanto digital como en el mundo real totalmente superadora a la que se vive actualmente.",
             "paragraph2": "Brinda asesoramiento personalizado para particulares y empresas en el proceso de compra y venta de vehículos, ofreciendo servicios de gestoría y financiación a través de canales digitales. Adicionalmente, trabaja con las terminales automotrices en canales de venta directa especiales para empleados de empresas.",
@@ -397,7 +399,8 @@
     "simpliGo": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliGO crea ecosistemas digitales enfocados en brindar soluciones de  movilidad a empresas, bancos y compañías de seguros.",
             "paragraph1": "SimpliGO es el agrupador de oferta de soluciones de movilidad más grande de América Latina, que se integra en los ecosistemas digitales y/o marketplaces desarrollados en entidades bancarias, petroleras, aseguradoras, programas de loyalty, grandes empresas locales y de la región.",
             "paragraph2": "SimpliGO se caracteriza por su capacidad de agrupar sellers exclusivamente del rubro de movilidad, como así también por el grado de customización que tienen sus plataformas, para integrar en el proceso de compra cualquier producto o servicio, generando un ecosistema de multibeneficio para la empresa y su cartera de clientes y/o empleados. Además, los sellers asociados con SimpliGO acceden a la publicación de sus productos o servicios en los diferentes marketplaces de la empresa.",
@@ -408,7 +411,8 @@
     "simpliSeg": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "FINTECH & INSURANCE",
             "subtitle": "SimpliSeg es una empresa fundada con el objetivo de facilitar el trámite de baja y reposición de vehículos siniestrados o robados en la República Argentina.",
             "paragraph1": "SimpliSeg tiene como misión reinventar y mejorar todo el proceso de reposición de un auto tanto en forma total como en forma parcial para las compañías de seguros.",
             "paragraph2": "Con un proceso digitalizado y con foco 100% en el sector automotriz, SimpliSeg busca que las compañías de seguros puedan dar un mejor servicio a sus clientes alrededor de los siniestros y al mismo tiempo que las compañías se focalicen en su negocio principal, dejando en manos de un especialista todo lo que hace a la reposición o arreglo del vehículo.",
@@ -419,7 +423,8 @@
     "simpliPlan": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "FINTECH & INSURANCE",
             "subtitle": "SimpliPLAN es un agente oficial Chevrolet que realiza la comercialización de planes de ahorro con foco en lo digital para la compra de autos 0km.",
             "paragraph1": "SimpliPLAN nace con el propósito de mejorar la experiencia de compra de un plan de ahorro en Argentina. A través de la digitalización de un proceso más transparente, busca que todo aquel que ingresa en un plan de ahorro evite muchas de las frustraciones y puntos de dolor que actualmente existen en esa experiencia. SimpliPLAN trabaja junto a Chevrolet, que apostó a este nuevo modelo de negocios.",
             "btn": "IR AL SITIO"
@@ -428,7 +433,8 @@
     "simpliData": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DATA",
             "subtitle": "SimpliData es el primer historial de vehículos usados con data a nivel nacional, desarrollado en alianza con Equifax.",
             "paragraph1": "SimpliDATA es la plataforma online que brinda información completa del historial de vehículos usados con el fin de dar seguridad en la toma de decisiones y confiabilidad en las transacciones. Con SimpliDATA se puede conocer en profundidad toda la historia del vehículo usado: marca, modelo, año, registro de radicación, deuda de patente, infracciones de tránsito, instalación y revisiones de GNC, resultados de VTVs e inclusive si el automóvil fue utilizado como taxi o remis.",
             "btn": "IR AL SITIO"

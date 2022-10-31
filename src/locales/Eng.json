@@ -366,7 +366,8 @@
     "simpliTec": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "Technology company specialized in mobility that develops digital retailing solutions to enhance the buying and selling experience.",
             "paragraph1": "SimpliTEC is a technology company specialized in creating digital retailing solutions in mobility that help organizations to digitize, evolve and enhance the buying and selling experience.",
             "paragraph2": "Founded in 2020 by mobility experts with over 15 years of industry experience, SimpliTEC develops quality products grounded in learning and success, creating collaborative relationships and generating added value for the industry.",
@@ -376,7 +377,8 @@
     "simpliMuv": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliMuv is the first digital retailing platform for the world of two-wheeled vehicles (motorcycles and bicycles).",
             "paragraph1": "With four years of development, SimpliMuv currently has a set of digital solutions that allow users to book a vehicle, to obtain a loan for it and to purchase accessories and spare parts online.",
             "paragraph2": "While it is difficult to buy a motorcycle 100% online, SimpliMuv aims to provide an omnichannel solution where the customer experiences the best of the digital world in conjunction with the best of the experience in the real retail world.",
@@ -387,7 +389,8 @@
     "simpliCar": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliCar is a company that provides personalized advice for private and corporate clients  in the process of buying and selling vehicles, offering management and financing services through digital channels.",
             "paragraph1": "SimpliCar aims to become a great virtual 2.0 dealership where people who want to buy a vehicle have both a digital and real experience that is superior to the one lived today.",
             "paragraph2": "It provides personalized advice for individuals and companies in the process of buying and selling vehicles, offering management and financing services through digital channels. Additionally, it works with automotive terminals in special direct sales channels for company employees.",
@@ -398,7 +401,8 @@
     "simpliGo": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DIGITAL RETAILING",
             "subtitle": "SimpliGO creates digital ecosystems focused on providing mobility solutions to businesses, banks and insurance companies.",
             "paragraph1": "SimpliGO is Latin America’s largest provider of mobility solutions, integrated into digital ecosystems and/or marketplaces developed in banks, oil companies, insurance companies, loyalty programs, large local and regional companies.",
             "paragraph2": "SimpliGO is characterized by its ability to group sellers exclusively in the field of mobility, as well as by the degree of customization that their platforms have, to integrate in the purchase process any product or service, generating a multi-profit ecosystem for the company and its portfolio of customers and/or employees. In addition, sellers associated with SimpliGO access the publication of their products or services in the different marketplaces of the company.",
@@ -409,7 +413,8 @@
     "simpliSeg": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "FINTECH & INSURANCE",
             "subtitle": "SimpliSeg is a company founded with the aim of facilitating the withdrawal and replacement of vehicles lost or stolen in Argentina.",
             "paragraph1": "SimpliSeg’s mission is to reinvent and improve the entire car replacement process both fully and partially for insurance companies.",
             "paragraph2": "With a digitized process and 100% focus on the automotive sector, SimpliSeg seeks that insurance companies can better serve their customers around claims and at the same time that companies focus on their core business, leaving in the hands of a specialist everything that makes the replacement or repair of the vehicle.",
@@ -420,7 +425,8 @@
     "simpliPlan": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "FINTECH & INSURANCE",
             "subtitle": "SimpliPLAN is an official Chevrolet agent that carries out the marketing of savings plans for the purchase of 0km cars.",
             "paragraph1": "SimpliPLAN was born with the purpose of improving the purchasing experience of a savings plan in Argentina. Through the digitization of a more transparent process, everyone who enters a savings plan avoids many of the frustrations and pain points that currently exist in that experience. SimpliPLAN works together with Chevrolet, who bet on this new business model.",
             "btn": "GO TO SITE"
@@ -429,7 +435,8 @@
     "simpliData": {
         "page-items": {
             "title": "Businesses",
-            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "description": "OUR VERTICALS |",
+            "descriptionSpan": "DATA",
             "subtitle": "SimpliData is the first nationwide used vehicle history with data, developed in partnership with Equifax.",
             "paragraph1": "SimpliDATA is an online platform that provides complete information about the history of used vehicles in order to provide security in decision making and reliability in transactions. With SimpliDATA you can know in depth the entire history of the used vehicle: brand, model, year, registration number, number plate debt, traffic infractions, CNG installation and inspections, VTV results and even if the car was used as a taxi or remise.",
             "btn": "GO TO SITE"

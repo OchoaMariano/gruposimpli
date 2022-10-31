@@ -26,6 +26,8 @@ const { tm } = useI18n();
         rrss1_link="https://www.linkedin.com/instag"
         rrss_url2="icon-instagram-bss.png"
         rrss2_link="https://www.instagram.com/"
+        blue__st="true"
+        lightBlue__st="true"
     />
     <Footer />
 </template>

@@ -44,7 +44,7 @@ const router = createRouter({
     },
     {
       path: '/simplicar',
-      name: 'simpligo',
+      name: 'simplicar',
       component: SimplicarView
     },
     {
