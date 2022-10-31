@@ -13,12 +13,14 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper";
+import { RouterLink } from 'vue-router';
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
-  },
+    RouterLink
+},
   setup() {
     const currentSlide = ref(0)
     const onSwiper = (swiper) => {
@@ -46,10 +48,10 @@ export default {
         <div class="flex justify-center">
             <div class="title__section text-center">
                 <h1 class="text-white font-bold text-4xl pb-4">
-                    Businesses
+                    {{ $t('Businesses.hero.title') }}
                 </h1>
                 <h4 class="text-lightBlue font-normal text-xl">
-                    OUR VERTICALS
+                    {{ $t('Businesses.hero.subtitle') }}
                 </h4>
             </div>
         </div>
@@ -80,7 +82,7 @@ export default {
                             </h2>
                         </div>
                         <p class="text-white pt-10 px-4 xl:px-40">
-                            Vertical de negocio con empresas con foco financiero, con nuevas propuestas de uso de vehículos como suscripción mensual, renting, sharing y leasing y de seguros que se apoyan en la tecnología para ser disruptivas en el mercado.
+                            {{ $t('Businesses.fintech.description') }}
                         </p>
                     </div>
                 </swiper-slide>
@@ -98,7 +100,7 @@ export default {
                             </h2>
                         </div>
                         <p class="text-white pt-10 px-4 xl:px-40">
-                            Más del 90% de los compradores de vehículos en el mundo realizan algún tipo de actividad online antes de acercarse a un concesionario para hacer efectiva la compra. Si bien pocas personas compran un vehículo 100% online, sí buscan poder hacer la búsqueda, reservar el vehículo, sacar un crédito, comprar accesorios complementarios y contratar un seguro desde su smartphone o dispositivo antes de terminar la venta en el mundo offline. Por ello, desarrollamos esta vertical de negocio con empresas que unen lo mejor de la tecnología con el desarrollo de canales comerciales para potenciar la movilidad.
+                            {{ $t('Businesses.Retailing.description') }}
                         </p>
                     </div>
                 </swiper-slide>
@@ -115,8 +117,7 @@ export default {
                             </h2>
                         </div>
                         <p class="text-white pt-10 px-4 xl:px-40">
-                            XXI es el siglo de la data y el potencial que existe alrededor de la información.
-                            Por ello, contamos con una vertical de negocio con empresas de core en la información y análisis de los datos de la industria de la movilidad. 
+                            {{ $t('Businesses.data.description') }}
                         </p>
                     </div>
                 </swiper-slide>
@@ -135,16 +136,16 @@ export default {
                     <div class="w-full p-20 text-left">
                         <img src="../../../assets/images/logo-simpliseg-bss.png" class="h-8" />
                         <p class="text-gray text-left py-8">
-                            Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                            {{ $t('Businesses.brands.simpliseg.description') }}
                         </p>
-                        <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                        <RouterLink to="/simpliseg" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">{{ $t('Businesses.brands.simpliseg.btn') }}</RouterLink>
                     </div>
                     <div class="w-full p-20 text-left">
                         <img src="../../../assets/images/logo-simpliplan-bss.png" class="h-8" />
                         <p class="text-gray text-left py-8">
-                            Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                            {{ $t('Businesses.brands.simpliplan.description') }}
                         </p>
-                        <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                        <RouterLink to="/simpliplan" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">{{ $t('Businesses.brands.simpliplan.btn') }}</RouterLink>
                     </div>
                     <div class="hidden xl:block w-full p-20 text-left">
                     </div>
@@ -157,30 +158,38 @@ export default {
                 <div class="w-full p-20 text-left">
                     <img src="../../../assets/images/simplitec-logo-bss.png" class="h-8" />
                     <p class="text-gray text-left py-8">
-                        Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                        {{ $t('Businesses.brands.simplitec.description') }}
                     </p>
-                    <a href="/simplitec" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                    <RouterLink to="/simplitec" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">
+                        {{ $t('Businesses.brands.simplitec.btn') }}
+                    </RouterLink>
                 </div>
                 <div class="w-full p-20 text-left">
                     <img src="../../../assets/images/logo-simplimuv-bss.png" class="h-8" />
                     <p class="text-gray text-left py-8">
-                        Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                        {{ $t('Businesses.brands.simplimuv.description') }}
                     </p>
-                    <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                    <RouterLink to="/simplimuv" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">
+                        {{ $t('Businesses.brands.simplimuv.btn') }}
+                    </RouterLink>
                 </div>
                 <div class="w-full p-20 text-left">
                     <img src="../../../assets/images/logo-simplicar-bss.png" class="h-8" />
                     <p class="text-gray text-left py-8">
-                        Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                        {{ $t('Businesses.brands.simplicar.description') }}
                     </p>
-                    <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                    <RouterLink to="/simplicar" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">
+                        {{ $t('Businesses.brands.simplicar.btn') }}
+                    </RouterLink>
                 </div>
                 <div class="w-full p-20 text-left">
                     <img src="../../../assets/images/logo-simpligo-bss.png" class="h-8" />
                     <p class="text-gray text-left py-8">
-                        Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                        {{ $t('Businesses.brands.simpligo.description') }}
                     </p>
-                    <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                    <RouterLink to="/simpligo" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">
+                        {{ $t('Businesses.brands.simpligo.btn') }}
+                    </RouterLink>
                 </div>
             </div>
 
@@ -191,9 +200,11 @@ export default {
                     <div class="xl:w-1/4 mx-auto p-20 text-left">
                         <img src="../../../assets/images/logo-simplidata-bss.png" class="h-8" />
                         <p class="text-gray text-left py-8">
-                            Empresa de tecnología especializada en movilidad que desarrolla soluciones de digital retailing para potenciar la experiencia de compra y venta.
+                            {{ $t('Businesses.brands.simplidata.description') }}
                         </p>
-                        <a href="#" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">VER MÁS</a>
+                        <RouterLink to="/simplidata" class="bg-transparent hover:bg-primaryBlue text-black hover:text-white px-6 py-2 rounded-full border-black border hover:shadow-lg">
+                            {{ $t('Businesses.brands.simplidata.btn') }}
+                        </RouterLink>
                     </div>
                 </div>
             </div>

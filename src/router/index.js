@@ -6,10 +6,10 @@ import ContactUs from '../views/ContactUs.vue'
 import SimplitecView from '../views/SimplitecView.vue'
 import SimplisegView from '../views/SimplisegView.vue'
 import SimplicarView from '../views/SimplicarView.vue'
-import SimpligoView from '../views/SimpligoView.vue'
 import SimplimuvView from '../views/SimplimuvView.vue'
 import SimplidataView from '../views/SimplidataView.vue'
 import SimpliplanView from '../views/SimpliplanView.vue'
+import SimpligoView from '../views/SimpligoView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,11 +43,6 @@ const router = createRouter({
       component: SimplimuvView
     },
     {
-      path: '/simpligo',
-      name: 'simpligo',
-      component: SimpligoView
-    },
-    {
       path: '/simplicar',
       name: 'simpligo',
       component: SimplicarView
@@ -66,6 +61,11 @@ const router = createRouter({
       path: '/simplidata',
       name: 'simplidata',
       component: SimplidataView
+    },
+    {
+      path: '/simpligo',
+      name: 'simpligo',
+      component: SimpligoView
     },
     {
       path: '/work',

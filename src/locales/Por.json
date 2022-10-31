@@ -2,10 +2,437 @@
     "navigation": {
         "navItemsDesktop": {
             "home": "Home",
-            "about-us": "About us",
+            "about-us": "About Us",
             "businesses": "Businesses",
             "work-with-us": "Work with us",
             "contact-us": "Contact us"
+        }
+    },
+    "home": {
+        "hero": {
+            "title": "Mobility & Innovation."
+        },
+        "About": {
+            "main": "About Us",
+            "subtitle": "EQUIPE + PROJETOS + INOVAÇÃO",
+            "title": "A mobilidade é o nosso DNA",
+            "text": "Criamos empresas customer centric que transformam a indústria da mobilidade através da tecnologia, marketing e dados.",
+            "btn": "VER MAIS"
+        },
+        "Businesses": {
+            "title": "Businesses",
+            "subtitle": "OUR VERTICALS",
+            "text1": "FINTECH & INSURANCE",
+            "content": "Vertical de negócio com empresas com foco no mercado financeiro e de seguros que se apoiam na tecnologia para serem disruptivas no mercado.",
+            "text2": "DIGITAL RETAILING",
+            "content2": "Vertical de negócio que une o melhor da tecnologia com o desenvolvimento de canais comerciais para potencializar a mobilidade.",
+            "text3": "DATA",
+            "content3": "Vertical de negócio com empresas centradas na informação e análise de dados da indústria da mobilidade.",
+            "btn":"VER MAIS"
+        },
+        "Clientes": {
+            "title": "Clientes & Parceiros"
+        },
+        "Footer-home": {
+            "title": "Ride With Us",
+            "subtitle": "Complete nosso formulário e entraremos em contato em breve.",
+            "btn": "FALE CONOSCO",
+            "follow-us": "Follow Us",
+            "arg": "ARG | Esmeralda 1320 - 3B - Buenos Aires",
+            "mex": "MEX | Av. Paseo de la Reforma 296, Juárez, Miguel Hidalgo, 06600 - CDMX",
+            "bra": "BRA | Soon",
+            "icon-mail": "info@gruposimpli.com"
+        }
+    },
+    "AboutUs": {
+        "hero": {
+            "title": "About Us",
+            "subtitle": "EQUIPE + PROJETOS + INOVAÇÃO",
+            "text": "Nascemos com o objetivo de digitalizar, potencializar e transformar a indústria da mobilidade. Nossa experiência de mais de 15 anos nos torna referência e especialistas na área."
+        },
+        "Core": {
+            "title": "Our Core Values",
+            "subtitle": "NOSSA EQUIPE É O NOSSO SUPERPODER.",
+            "features": {
+                "01": {
+                    "title": "Trabalho em Equipe",
+                    "content": "Trabalhamos lado a lado, somos uma equipe colaborativa e participativa. Aqui todas as ideias contam."
+                  },
+                  "02": {
+                    "title": "Foco",
+                    "content": "Sermos especialistas em uma única indústria nos permite ter objetivos claros e trabalhar concentrados neles. Respiramos mobilidade."
+                  },
+                  "03": {
+                    "title": "Autonomia",
+                    "content": "Dentro do Grupo promovemos a proatividade e a iniciativa dos colaboradores, criando equipes autônomas e responsáveis."
+                  },
+                  "04": {
+                    "title": "Evolução Constante",
+                    "content": "Investigação e inovação como pilares de equipes e áreas fazem com que estejamos sempre na vanguarda, comprometidos com a melhoria contínua de nossos produtos e serviços."
+                  },
+                  "05": {
+                    "title": "Paixão",
+                    "content": "Amamos o que fazemos. A satisfação que temos ao realizar um bom trabalho todos os dias, através de diversas ações, nos dá potência e motivação para nos superar."
+                  },
+                  "06": {
+                    "title": "O cliente na frente",
+                    "content": "Somos um grupo customer centric, todas as decisões, projetos e empresas estão focadas em beneficiar o usuário."
+                  },
+                "column-car": "Criamos empresas inovadoras, lucrativas e focadas no cliente que transformam o setor de mobilidade por meio de tecnologia, marketing e dados."
+            }
+        },
+        "Video": {
+            "btn-video": "VEJA O VÍDEO",
+            "paragraph1": "Lançamos uma startup a cada 18 meses após realizarmos uma seleção em meio a outras empresas, e análise da oportunidade por um período mínimo de um ano.",
+            "paragraph2": "Temos 3 requisitos fundamentais para nos tornarmos uma Company Builder:",
+            "items": { 
+                "01": {
+                  "title": "Foco na mobilidade",
+                  "content": "temos muita experiência no setor, trabalhando exclusivamente nessa área. Somos apaixonados pelas tendências da mobilidade que existem atualmente a nível global."
+                },
+                "02": {
+                  "title": "Sinergia",
+                  "content": "Os projetos que selecionamos e desenvolvemos devem trabalhar colaborativamente com as startups existentes do Grupo. Focamos em um trabalho cruzado que irá alimentar todo o ecossistema digital."
+                },
+                "03": {
+                  "title": "Trabalhamos com empresários",
+                  "content": "Procuramos talentos que pensem no Grupo Simpli como o lugar para lançarem seus próprios negócios. Acreditamos em um modelo colaborativo e de ownership compartilhado."
+                },
+                "mobility": "A mobilidade é o nosso DNA"
+            }
+        },
+        "OurTeam": {
+            "title": "Our Team",
+            "subtitle": "TEMOS TALENTOS DEDICADOS E EMPREENDEDORES.",
+            "team": {
+                "ezequiel": {
+                  "name": "Ezequiel Calcarami",
+                  "position": "CEO & FUNDADOR, GRUPO SIMPLI",
+                  "btn": "VER MAIS"
+                },
+                "nicolas": {
+                    "name": "Nicolás Cuevas",
+                    "position": "HEAD OF TECHNOLOGY & PARTNER, GRUPO SIMPLI",
+                    "btn": "VER MAIS"
+                },
+                "georgina": {
+                  "name": "Georgina Benvenuto",
+                  "position": "CFO, GRUPO SIMPLI",
+                  "btn": "VER MAIS"
+                },
+                "romina": {
+                  "name": "Romina Civile",
+                  "position": "RESPONSABLE DE PEOPLE EXPERIENCE, GRUPO SIMPLI",
+                  "btn": "VER MAIS"
+                },
+                "martin": {
+                  "name": "Martín Llambí",
+                  "position": "COO & PARTNER, SIMPLIGO",
+                  "btn": "VER MAIS"
+                },
+                "gabriel": {
+                  "name": "Gabriel Nieres",
+                  "position": "CTO & PARTNERE, SIMPLITEC",
+                  "btn": "VER MAIS"
+                },
+                "lionel": {
+                    "name": "Lionel Cuevas",
+                    "position": "CTO, SIMPLIMUV",
+                    "btn": "VER MAIS"
+                },
+                "giselle": {
+                  "name": "Giselle Rojo Del Ponte",
+                  "position": "COO & PARTNER, SIMPLITEC",
+                  "btn": "VER MAIS"
+                },
+                "marco": {
+                  "name": "Marco Pierucci",
+                  "position": "BUSINESS DEVELOPMENT SPECIALIST & PARTNER, SIMPLICAR",
+                  "btn": "VER MAIS"
+                },
+                "eduardo": {
+                  "name": "Eduardo Torras",
+                  "position": "FINTECH PARTNER, GRUPO SIMPLI",
+                  "btn": "VER MAIS"
+                },
+                "catriel": {
+                  "name": "Catriel Videla",
+                  "position": "CEO, SIMPLISEG",
+                  "btn": "VER MAIS"
+                },
+                "santiago": {
+                  "name": "Santiago Vilas",
+                  "position": "CEO, SIMPLIPLAN",
+                  "btn": "VER MAIS"
+                },
+                "sofia": {
+                  "name": "Sofía Caminal",
+                  "position": "MARKETING, GRUPO SIMPLI",
+                  "btn": "VER MAIS"
+                },
+                "daniel": {
+                  "name": "Daniel Stern",
+                  "position": "MANAGING PARTNER, BLUE MOBILITY VENTURES",
+                  "btn": "VER MAIS"
+                }
+            }
+        }
+    },
+    "Popups-team": {
+        "pop-ezequiel": {
+            "nombre": "Ezequiel Calcarami",
+            "position": "CEO & FUNDADOR, GRUPO SIMPLI",
+            "paragraph1": "Ezequiel é o fundador e CEO do Grupo Simpli, com mais de 20 anos de experiência empreendendo no setor de mobilidade. Ele é responsável por identificar e definir os objetivos e prioridades do Grupo, e está diretamente envolvido no desenvolvimento da estratégia da empresa e na construção de relacionamentos com clientes e associados. Um fervoroso adepto do trabalho em equipe, Ezequiel é um empreendedor em série, seja no mundo dos negócios ou em causas sociais, ele obteve sucessos e fracassos que o guiaram até onde está hoje.",
+            "paragraph2": "Aos 36 anos, iniciou o sonho de ser empreendedor e desde então fundou mais de 12 empresas, todas na área da mobilidade, entre elas concessionárias de automóveis, fabricantes de motocicletas e plataformas digitais. Dentro das atuais empresas do Grupo Simpli, Ezequiel é sócio de empresas como: Equifax, Harley Davidson Inc, Río Uruguay Seguros e Blue Mobility Ventures.",
+            "paragraph3": "Ezequiel é co-fundador da ASEA (Asociación de Emprendedores de Argentina). Foi presidente da ASEA e vice-presidente da ASELA (Asociación de Emprendedores de Latino América). Ezequiel também é membro da EO (Entrepreneurs' Organization), ocupando a presidência do conselho de administração da EO Argentina em alianças estratégicas. Por fim, faz parte da ACDE (Asociación Cristiana de Dirigentes de Empresas).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-nicolas": {
+            "name": "Nicolás Cuevas",
+            "position": "HEAD OF TECHNOLOGY & PARTNER, GRUPO SIMPLI",
+            "paragraph1": "Nicolas é o diretor de tecnologia do Grupo. Com mais de 15 anos de experiência trabalhando como desenvolvedor Full Stack, está diretamente envolvido na elaboração da estratégia e da estrutura técnica de todos os projetos do Grupo. Trabalhou em empresas de tecnologia como Globant e Overactive, além de ter exercido a posição de docente em formação técnica. Ele é Analista de Sistemas pela Universidad Tecnológica Nacional (UTN).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-georgina": {
+            "name": "Georgina Benvenuto",
+            "position": "CFO, GRUPO SIMPLI",
+            "paragraph1": "Enquanto CFO do Grupo, Georgina é responsável pela gestão, controle e análise financeira da empresa. É a responsável por tomar decisões enquadradas na área financeira, conta com mais de 20 anos de experiência na área e se destaca por seus mais de 10 anos à frente de um estudo contábil.",
+            "paragraph2": "É formada em Administração de Empresas pela Universidad Católica Argentina (UCA), além de ter realizado uma pós-graduação em Negócios e Finanças. Tem atuado como professora adjunta no curso de Contabilidade da Universidad Nacional de San Martín (UNSAM).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-romina": {
+            "name": "Romina Civile",
+            "position": "RESPONSABLE DE PEOPLE EXPERIENCE, GRUPO SIMPLI",
+            "paragraph1": "Com mais de 18 anos de experiência trabalhando em pequenas e médias empresas, varejo, instituições educativas e com consultorias, Romina é a responsável pela People Experience do Grupo Simpli. Sob sua responsabilidade está o alinhamento dos interesses dos colaboradores com os do Grupo, a transmissão dos valores, missão e visão da empresa, o fortalecimento do espírito de pertencimento e a geração e manutenção de um bom ambiente de trabalho. De perfil generalista e uma característica orientação ao cliente interno, Romina se destaca por suas excelentes relações interpessoais e ampla capacidade para o trabalho em equipe. É formada em Relações do Trabalho pela Universidad de Buenos Aires (UBA).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-martin": {
+            "name": "Martín Llambí",
+            "position": "COO & PARTNER, SIMPLIGO",
+            "paragraph1": "Martín conta com ampla experiência na indústria da mobilidade, desenvolvida por mais de 20 anos na Toyota Argentina, ocupando cargos gerenciais nas áreas de vendas, pós-venda, planejamento estratégico e administração. Em sua passagem pela marca, ele foi capacitado e treinado no Japão, Brasil, Panamá, Equador, Venezuela e Chile, o que lhe permitiu ter uma visão global dos padrões internacionais que existem em torno da mobilidade nos principais mercados da América Latina e do mundo.",
+            "paragraph2": "Possui certificações em inovação, transformação digital, gestão, padronização de processos e cuidado do cliente, o que torna o seu perfil ideal para estar à frente do SimpliGO. Como Chief Operating Officer, é responsável pela operação integral da empresa: lidera os projetos implementados e em processo de implementação, mantém as relações com os clientes e lidera a equipe de operações.",
+            "paragraph3": "É licenciado em Economia pela Universidad de Buenos Aires (UBA), conta com uma pós-graduação em Management Estratégico pela Universidad de Belgrano (UB) e também realizou um mestrado em Management pela Universidad San Andrés  (UdeSA).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-gabriel": {
+            "name": "Gabriel Nieres",
+            "position": "CTO & PARTNERE, SIMPLITEC",
+            "paragraph1": "Gabriel é o líder técnico do SimpliTEC. Com mais de 16 anos de experiência na área de desenvolvimento, sua longa trajetória trabalhando em bancos privados o ajudou em sua formação de líder com grande clareza executiva para alocar os recursos corretos no cumprimento dos objetivos indicados. Tem exercido uma posição de docência em formação técnica e é licenciado em Informática pela Universidad Católica de Salta (UCASAL), além de contar com diversas certificações financeiras.",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-lionel": {
+            "name": "Lionel Cuevas",
+            "position": "CTO, SIMPLIMUV",
+            "paragraph1": "Lionel é o CTO do SimpliMUV. É responsável pelo desenvolvimento da plataforma e da equipe técnica, como também da estabilidade da mesma, o desenvolvimento de novas funcionalidades e da investigação e implementação de novas tecnologias.",
+            "paragraph2": "Começou aos 14 anos desenvolvendo páginas de web e desde então segue no mundo da programação até hoje: tem experiência trabalhando em projetos grandes e variados, como líder técnico para projetos na indústria de gaming, na Electronic Arts, Konami e Bally Technologies.",
+            "paragraph3": "Também se destacou como líder técnico para Nat Geo e trabalhou para uma empresa da indústria da medicina nos EUA, onde atuou como CTO e Senior Vice President. Atualmente está estudando Sistemas na Universidad de Palermo (UP).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-giselle": {
+            "name": "Giselle Rojo Del Ponte",
+            "position": "COO & PARTNER, SIMPLITEC",
+            "paragraph1": "Como líder de operações e Customer Success do SimpliTEC, a missão da Giselle é garantir que a visão estratégica se traduza em operações rentáveis. Construir e manter relações de confiança com clientes-chave, parceiros e demais relações profissionais é parte do seu dia a dia. Ela também é responsável por garantir que os clientes alcancem os resultados desejados usando os produtos do SimpliTEC.",
+            "paragraph2": "Tem mais de 16 anos de experiência internacional na área. No Canadá, participou e foi responsável pela transição da digitalização do setor de varejo da Loblaw Companies Limited Inc., a maior varejista do país. Na Loblaw Companies também liderou e foi responsável por diversos segmentos, incluindo todas as funções relacionadas aos objetivos financeiros: criação de planos estratégicos a longo prazo com respeito à categoria e crescimento da empresa, seleção de produtos, preços, promoções em locais e promoções digitais, eventos corporativos, design e execução do plano de negócios a nível de produto e segmento.",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-marco": {
+            "name": "Marco Pierucci",
+            "position": "BUSINESS DEVELOPMENT SPECIALIST & PARTNER, SIMPLICAR",
+            "paragraph1": "Marco é responsável no desenvolvimento de negócios no SimpliCar. Entre suas responsabilidades estão a criação de planos de negócio eficazes para a empresa, a análise dos processos de negócio e a identificação de oportunidades para a geração de receita adicional. Conta com mais de 10 anos de experiência na área comercial, se destacando por seu trabalho realizado no Pampamed, ICBC e Standard Bank. É formado em Comércio Internacional pela Universidad Nacional de La Matanza (UNLaM).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-eduardo": {
+            "name": "Eduardo Torras",
+            "position": "FINTECH PARTNER, GRUPO SIMPLI",
+            "paragraph1": "Eduardo é o responsável pela área fintech do Grupo, além de responsável por uma startup de aluguel online e venda de veículos para plataformas de mobilidade. Anteriormente, atuou como gerente de vendas atacadistas na Shell Argentina e foi gerente de vendas do varejo para Buenos Aires e Patagônia.",
+            "paragraph2": "É o fundador e CEO da DeltaPatagonia, uma empresa que comercializa combustíveis e lubrificantes sob a marca Gulf em mais de 12 províncias da Argentina, e conta com uma rede de 125 postos de gasolina e agroservice.",
+            "paragraph3": "É formado em Ciências da Comunicação pela Universidad Austral e conta com uma pós-graduação em Marketing pela Universidad San Andrés (UdeSA).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-catriel": {
+            "name": "Catriel Videla",
+            "position": "CEO, SIMPLISEG",
+            "paragraph1": "Como CEO do SimpliSeg, Catriel é responsável por estabelecer a orientação e estratégia da empresa, bem como por gerenciar seus recursos e planejar, organizar e dirigir o trabalho da empresa. Conta com mais de 15 anos de experiência na área, se destacando por seu trabalho no Río Uruguay Seguros e na realização de diversas capacitações em seguros.",
+            "paragraph2": "É Engenheiro Eletromecânico formado pela Universidad Tecnológica Nacional (UTN), onde também está cursando Transformação Digital. Realizou também um curso de Tecnologia e Negócios Digitais na Universidad Torcuato Di Tella (UTDT) e um mestrado em Transformação Digital na Universidad San Andrés (UdeSA).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-santiago": {
+            "name": "Santiago Vilas",
+            "position": "CEO, SIMPLIPLAN",
+            "paragraph1": "Santiago é o gerente geral do SimpliPLAN. É responsável por planejar, organizar, coordenar, analisar e conduzir o trabalho da empresa. Conta com mais de 10 anos de experiência na indústria automobilística, trabalhando em diferentes funções executivas na área comercial e de marketing para a General Motors. Além disso, é chefe de trabalhos práticos na Universidad Argentina de la Empresa (UADE), onde leciona nos cursos de Marketing e Marketing Estratégico.",
+            "paragraph2": "É licenciado em Comercialização pela UADE e conta com uma pós-graduação em Finanças Corporativas pela Universidad del Salvador (USAL).",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-sofia": {
+            "name": "Sofía Caminal",
+            "position": "MARKETING, GRUPO SIMPLI",
+            "paragraph1": "Sofia é a responsável de marketing do Grupo Simpli. É responsável pela identidade das marcas, pela criação das comunicações internas da empresa e pela comunicação de valor dos produtos. Também é responsável pela pesquisa de mercado necessária para coordenar e dirigir as campanhas e redes sociais do Grupo.",
+            "paragraph2": "Conta com mais de 15 anos de experiência na indústria do turismo e hotelaria, em empresas como American Airlines, InterContinental Hotels e Hotel Correntoso, em áreas de vendas e marketing.",
+            "paragraph3": "É licenciada em Turismo pela Universidad del Salvador (USAL), tem uma pós-graduação em Marketing pela Universidad Católica Argentina (UCA), uma pós-graduação em Marketing de Marcas de Luxo pela Universidad de Belgrano (UB) e uma certificação em Marketing Digital da Coderhouse.",
+            "linkedin": "VISIT PROFILE"
+        },
+        "pop-daniel": {
+            "name": "Daniel Stern",
+            "position": "MANAGING PARTNER, BLUE MOBILITY VENTURES",
+            "paragraph1": "Daniel Stern é o fundador e sócio-gerente de uma empresa de capital de risco chamada Blue Mobility Ventures, onde constrói um fundo de investimento em mobilidade e transporte que ajuda fundadores na América Latina e Israel a impactar 660 milhões de pessoas com soluções que irão possibilitar que a mobilidade seja livre de poluição, mais segura, compartilhada, sustentável e acessível a todos.",
+            "paragraph2": "Também é diretor de inovação e mobilidade do Grupo Kaufmann, consultor de startups de mobilidade e investidor-anjo. Anteriormente, foi gerente do Sistema B Company Builder, empreendedor serial do setor de alimentação e educação e atuou em funções empresariais em gestão de patrimônio e serviços financeiros. Agora é totalmente dedicado à transformação dual, disrupção de MaaS, transporte público e logística inteligente.",
+            "linkedin": "VISIT PROFILE"
+        }
+    },
+    "ContactUs": {
+        "hero": {
+            "title": "Contact Us",
+            "subtitle": "Complete o formulário e entraremos em contato com você em breve."
+        },
+        "formContactUs": {
+            "name": "NOME",
+            "namePlaceholder": "Digite seu nome",
+            "surname": "SOBRENOME",
+            "surnamePlaceholder": "Digite seu sobrenome",
+            "company": "EMPRESA",
+            "companyPlaceholder": "Digite seu empresa",
+            "country": "PAÍS",
+            "countryPlaceholder": "Digite seu país",
+            "email": "EMAIL",
+            "emailPlaceholder": "Digite seu email",
+            "phone": "TELEFONE",
+            "phonePlaceholder": "Digite seu telefone",
+            "message": "MENSAGEM",
+            "messagePlaceholder": "Escreva sua mensagem",
+            "btn-send": "ENVIAR",
+            "icon-mail": "info@gruposimpli.com"
+        }
+    },
+    "WorkWithUs": {
+        "hero": {
+            "title": "Trabalhe com a gente",
+            "subtitle": "Faça parte da nossa equipe.",
+            "text": "No Grupo Simpli acreditamos no trabalho em equipe e valorizamos o talento. Junte-se a nós na transformação da indústria da mobilidade.",
+            "btn": "ENVIAR CV",
+            "icon-mail": "rrhh@gruposimpli.com"
+        }
+    },
+    "Businesses": {
+        "hero": {
+            "title": "Businesses",
+            "subtitle": "OUR VERTICALS"
+        },
+        "Retailing": {
+            "title": "DIGITAL RETAILING",
+            "description": "Mais de 90% dos compradores de veículos no mundo realizam algum tipo de atividade online antes de irem em uma concessionária para realizar a compra. Ainda que poucas pessoas realizem uma compra 100% online de um veículo, outras ações como a busca e reserva de um veículo, pedido de crédito, compra de acessórios e contratação de um seguro são realizadas a partir de um smartphone ou outro dispositivo antes da efetivação da compra no mundo offline. Por isso, desenvolvemos esta vertical de negócio com empresas que unem o melhor da tecnologia com o desenvolvimento de canais comerciais para potencializar a mobilidade."
+        },
+        "fintech": {
+            "title": "FINTECH & INSURANCE",
+            "description": "Vertical de negócio com empresas com foco financeiro, com novas propostas para o uso de veículos tal como assinatura mensal, renting, sharing e leasing, como também seguros que se apoiam na tecnologia para serem disruptivas no mercado."
+        },
+        "data": {
+            "title": "DATA",
+            "description": "O século XXI é definido pelo uso de dados e pelo potencial existente em torno da informação. Por isso, contamos com uma vertical de negócio com empresas centradas na informação e análise de dados da indústria da mobilidade."
+        },
+        "brands": {
+            "simplitec": {
+              "description": "Empresa de tecnologia especializada em mobilidade que desenvolve soluções de digital retailing para potencializar a experiência de compra e venda.",
+              "btn": "VER MAIS"
+            },
+            "simplimuv": {
+                "description": "SimpliMuv é a primeira plataforma de digital retailing para o mundo dos veículos de duas rodas (motos e bicicletas).",
+                "btn": "VER MAIS"
+            },
+            "simplicar": {
+                "description": "SimpliCar é uma empresa que presta consultoria personalizada para clientes e empresas no processo de compra e venda de veículos, oferecendo serviços de gestão e financiamento através de canais digitais.",
+                "btn": "VER MAIS"
+            },
+            "simpligo": {
+                "description": "SimpliGO cria ecossistemas digitais focados em oferecer soluções de mobilidade para empresas, bancos e companhias de seguros.",
+                "btn": "VER MAIS"
+            },
+            "simplidata": {
+                "description": "SimpliData é o primeiro sistema de registro de dados de veículos usados a nível nacional, desenvolvido em parceria com a Equifax.",
+                "btn": "VER MAIS"
+            },
+            "simpliseg": {
+                "description": "SimpliSeg é uma empresa fundada com o objetivo de facilitar o trâmite de baixa e de reposição de veículos sinistrados ou roubados dentro da República Argentina.",
+                "btn": "VER MAIS"
+            },
+            "simpliplan": {
+                "description": "SimpliPLAN é um agente oficial da Chevrolet que realiza a comercialização de planos de poupança com foco no digital para a compra de carros 0km.",
+                "btn": "VER MAIS"
+            },
+            "banner": {
+                "title": "Company Builders"
+            }
+        }
+    },
+    "simpliTec": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "Empresa de tecnologia especializada em mobilidade que desenvolve soluções de digital retailing para potencializar a experiência de compra e venda.",
+            "paragraph1": "SimpliTEC é uma empresa de tecnologia especializada na criação de soluções tecnológicas de digital retailing na área de mobilidade que ajudam organizações a digitalizar, evoluir e potencializar a experiência de compra e venda.",
+            "paragraph2": "Fundada em 2020 por especialistas em mobilidade com mais de 15 anos de experiência na indústria, a SimpliTEC desenvolve produtos de qualidade baseados em aprendizagens e acertos, criando relações colaborativas e gerando valor agregado para a indústria.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliMuv": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliMuv é a primeira plataforma de digital retailing para o mundo dos veículos de duas rodas (motos e bicicletas).",
+            "paragraph1": "Com quatro anos de desenvolvimento, o SimpliMuv possui um conjunto de soluções digitais que permitem desde reservas de veículos até a obtenção de crédito, como também a compra de acessórios e peças de reposição de forma completamente online.",
+            "paragraph2": "Embora seja difícil que a compra de uma moto seja realizada de forma 100% online, o SimpliMuv tem como objetivo oferecer uma solução omnichannel onde o cliente possa experimentar o melhor do mundo digital juntamente com o melhor da experiência no mundo do varejo.",
+            "paragraph3": "Desde 2022, a Harley Davidson Global é parceira do SimpliMuv e com isso a plataforma será levada mundialmente para os mercados mais importantes, começando pelos Estados Unidos.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliCar": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliCar é uma empresa que presta consultoria personalizada para clientes e empresas no processo de compra e venda de veículos, oferecendo serviços de gestão e financiamento através de canais digitais.",
+            "paragraph1": "SimpliCar tem o objetivo de se tornar uma grande concessionária virtual 2.0, onde as pessoas que desejam comprar um veículo tenham uma experiência superior à realidade atual, tanto no âmbito digital, como no mundo real.",
+            "paragraph2": "Fornece consultoria personalizada para clientes e empresas no processo de compra e venda de veículos, oferecendo serviços de gestão e financiamento através de canais digitais. Além disso, trabalha com terminais automotivos em canais de venda direta especialmente para funcionários de empresas.",
+            "paragraph3": "SimpliCar vendeu mais de 5.000 veículos desde seu início, contando com a confiança de mais de 300 empresas na Argentina.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliGo": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliGO cria ecossistemas digitais focados em oferecer soluções de mobilidade para empresas, bancos e companhias de seguros.",
+            "paragraph1": "SimpliGO é o maior agrupador de ofertas de soluções de mobilidade da América Latina, se integrando nos ecossistemas digitais e/ou marketplaces desenvolvidos em entidades bancárias, petroleiras, seguradoras, programas de fidelidade, e em grandes empresas locais e regionais.",
+            "paragraph2": "SimpliGO se caracteriza por sua capacidade de agrupar exclusivamente vendedores do ramo de mobilidade, como também pelo grau de customização de suas plataformas, para serem integrados no processo de compra de qualquer produto ou serviço, gerando um ecossistema de multibenefício para a empresa e sua carteira de clientes e/ou funcionários. Além disso, os vendedores associados ao SimpliGO acessam a publicação de seus produtos ou serviços nos diferentes marketplaces da empresa.",
+            "paragraph3": "Empresas como ICBC, Shell e Río Uruguay Seguros já confiam no SimpliGO para o desenvolvimento de seus canais digitais de mobilidade.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliSeg": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliSeg é uma empresa fundada com o objetivo de facilitar o trâmite de baixa e de reposição de veículos sinistrados ou roubados na República Argentina.",
+            "paragraph1": "SimpliSeg tem como missão reinventar e melhorar todo o processo de reposição de um automóvel seja de forma total ou parcial para as companhias de seguros.",
+            "paragraph2": "Com um processo digitalizado e com foco 100% no setor automotivo, SimpliSeg busca que as companhias de seguros possam dar um melhor serviço aos seus clientes diante de sinistros e, ao mesmo tempo, que as companhias se concentrem em seu negócio principal, deixando nas mãos de um especialista a reposição ou conserto do veículo.",
+            "paragraph3": "Desde 2020, o SimpliSeg é uma empresa do Grupo Simpli tendo a Río Uruguay Seguros (RUS) como sócia e já foram realizadas mais de 1500 reposições de veículos desde a sua criação.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliPlan": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliPLAN é um agente oficial da Chevrolet que realiza a comercialização de planos de poupança com foco no digital para a compra de carros 0km.",
+            "paragraph1": "SimpliPLAN surgiu com o propósito de melhorar a experiência de compra de um plano de poupança na Argentina. Através da digitalização de um processo mais transparente, o objetivo é que todos aqueles que buscam por um financiamento possam evitar frustrações e dores de cabeça que são a realidade atual da experiência. O SimpliPLAN trabalha ao lado da Chevrolet, que apostou neste novo modelo de negócio.",
+            "btn": "ACESSE O SITE"
+        }
+    },
+    "simpliData": {
+        "page-items": {
+            "title": "Businesses",
+            "description": "OUR VERTICALS | DIGITAL RETAILING",
+            "subtitle": "SimpliData é o primeiro sistema de registro de dados de veículos usados a nível nacional, desenvolvido em parceria com a Equifax.",
+            "paragraph1": "O SimpliDATA é uma plataforma online que fornece informações completas sobre o histórico de veículos usados, a fim de proporcionar segurança na tomada de decisões e confiabilidade nas transações. Com SimpliDATA é possível saber com profundidade todo o histórico de um veículo usado: marca, modelo, ano, número de registro, pendências da placa, infrações de trânsito, instalação e revisões de GNC, resultado das revisões técnicas e se o automóvel já foi utilizado como táxi ou translado.",
+            "btn": "ACESSE O SITE"
         }
     }
 }

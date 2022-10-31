@@ -22,7 +22,9 @@
                 </div>
 
                 <div class="text__content col-start-0 col-end-1 row-start-1 row-end-1 z-[2] justify-center">
-                    <h3 class="text-white text-center text-4xl font-bold">Company Builders</h3>
+                    <h3 class="text-white text-center text-4xl font-bold">
+                        {{ $t('Businesses.brands.banner.title') }}
+                    </h3>
                 </div>
             </div>
         </div>
