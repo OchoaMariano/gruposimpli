@@ -77,7 +77,10 @@ const router = createRouter({
       name: 'contact',
       component: ContactUs
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return savedPosition || { top:0, behavior: 'smooth' }
+  }
 })
 
 export default router
